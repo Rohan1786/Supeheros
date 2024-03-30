@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Set background image */
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/446a20cc-3d9c-4cdf-8845-cee8c49b5076/de3339z-781acb4e-b0fc-4aef-b103-9dd5873c6136.jpg/v1/fill/w_1280,h_750,q_75,strp/marvel_dc_united_wallpaper_hd_by_joshua121penalba_de3339z-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUwIiwicGF0aCI6IlwvZlwvNDQ2YTIwY2MtM2Q5Yy00Y2RmLTg4NDUtY2VlOGM0OWI1MDc2XC9kZTMzMzl6LTc4MWFjYjRlLWIwZmMtNGFlZi1iMTAzLTlkZDU4NzNjNjEzNi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7yeP-yA4xK2BmGQ0Qdj0iphCD--ocYfjTSbaJA67EMc");
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* No repeating */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+
+#main{
+    margin-top: 23px;
+    width: 600px;
+    height: 500px;
+    background-image: url("https://media.gettyimages.com/id/1469875556/video/4k-abstract-lines-background-loopable.jpg?s=640x640&k=20&c=oRhmLOFm1rQPZQSQrUqnd8eRd8LsoGLmiQS7nMIh-MU=");
+    text-align: center;
+   color: white;
+   font-style: lato;
+   border: 1px solid rgb(10, 38, 56);
+    
+}
+
+
+button{
+    color: rgb(15, 193, 216);
+    background-color: rgb(132, 132, 221);
+    cursor: pointer;
+
+    border: 1px solid rgb(14, 13, 12);
+    padding: 20px;
+    font-family: monospace;
+
+}
+button:hover{
+    border: 1px solid rgb(2, 26, 70);
+
+}
+button:active{
+    border: 2px solid rgb(6, 79, 214);
+    cursor:progress;
+    color: cadetblue;
+}
+#current-image{
+    border: 1px solid black;
+    
+}
+#image-container{
+    border: 1px solid black;
+    
+}
+#go:active{
+    cursor:progress;
+    color: rgb(213, 232, 233);
+    
+}
